@@ -80,7 +80,7 @@ class _HomeState extends State<Home> with AfterLayoutMixin<Home> {
 
     await _updateData();
 
-    Navigator.pop(context); // Cierra el diálogo de cargando
+    Navigator.pop(context);
   }
 
   @override
